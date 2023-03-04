@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-left {
+    @apply p-[10px] bg-[#D796A6] rounded-full lg:p-5;
+  }
+  .btn-right {
+    @apply p-[10px] bg-[#BC002D] rounded-full lg:p-5;
+  }
+}
